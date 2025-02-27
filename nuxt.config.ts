@@ -40,5 +40,10 @@ export default defineNuxtConfig({
 
   icon: {
     provider: 'iconify'
+  },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
   }
 })
